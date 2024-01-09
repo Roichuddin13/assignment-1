@@ -68,13 +68,15 @@
     margin-top: 45px;
     margin-bottom: 10px;
 }
+
 .discount-title-3 {
     font-size: 48px;
     text-align: center;
     color: black;
     margin-bottom: 48px;
 }
-.new-year-bg{
+
+.new-year-bg {
     background-image: url("./images/New\ Year\ Photo.png");
     width: 800px;
     height: 500px;
@@ -84,7 +86,7 @@
     border-radius: 16px;
 }
 
-.welcome-party-section{
+.welcome-party-section {
     background-image: url("./images/Vectorrr.png");
     width: 100%;
     height: 600px;
@@ -99,7 +101,7 @@
 
 }
 
-.join-btn{
+.join-btn {
     background-color: transparent;
     border: none;
     color: white;
@@ -108,9 +110,10 @@
     margin-top: 48px;
 }
 
-.order-details{
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);    ;
-    height:482px;
+.order-details {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+    height: 482px;
     width: 100%;
     margin-top: 120px;
     border-radius: 16px;
@@ -118,12 +121,76 @@
     justify-content: center;
     align-items: center;
 }
-.order-para{
+
+.order-para {
     color: black;
     font-size: 32px;
     text-align: center;
     margin-top: 3px 0;
 }
-.span-color{
+
+.span-color {
     color: #F00;
+}
+
+.holiday-parent {
+    margin-top: 88px;
+}
+
+.holiday-header {
+    margin-top: 24px;
+}
+
+.holidays-function {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.holidays-para {
+    font-size: 72px;
+}
+
+.function-span {
+    color: #F00;
+}
+
+.function-para {
+    width: 800px;
+    text-align: center;
+}
+
+.image-container-holiday {
+    margin-top: 64px;
+}
+
+.image-parent {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.discount-50 {
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container-holiday-footer {
+    background-image: url('./images//Rectangle\ 2.png');
+    height: 229px;
+    margin-top: -4px;
+    position: relative;
+}
+
+.gift-image {
+    width: 474px;
+    height: 674px;
+    position: absolute;
+    bottom: -3px;
+    left: 150px;
+    object-fit: cover;
 }
