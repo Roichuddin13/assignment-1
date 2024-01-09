@@ -194,3 +194,125 @@
     left: 150px;
     object-fit: cover;
 }
+
+.gift-container {
+    margin-top: 50px;
+}
+
+.gift-header {
+    color: #F00;
+    font-size: 24px;
+    line-height: 13px;
+}
+
+.gift-header-2 {
+    font-size: 48px;
+    line-height: 73px;
+}
+
+.gift-para {
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 46px;
+}
+
+.gift-image-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    /* overflow-x: hidden; */
+    flex-wrap: wrap;
+}
+
+.gift-img {
+    width: 400px;
+    height: 450px;
+    margin-top: 6px;
+}
+
+.subscribe-container {
+    background: rgba(255, 0, 0, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.subscribe-header {
+    font-size: 48px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-parent {
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub-para {
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 27px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.sub-input {
+    border: none;
+    outline: none;
+    height: 72px;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    padding: 5px 40px;
+    width: 100%;
+}
+
+.sub-btn {
+    border: none;
+    outline: none;
+    height: 72px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding: 5px 40px;
+    background: #F00;
+    color: white;
+}
+
+.footer-container {
+    background: #070211;
+    padding: 40px 30px;
+    margin-top: 80px;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    line-height: 27px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.footer-bottom{
+    margin-top: 30px;
+}
